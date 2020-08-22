@@ -8,6 +8,7 @@ public class NID
         int imageWidth, imageHeight;
         int currentRow = 0;
         int currentCol = 0;
+        int n;
         Scanner keyboardScanner = new Scanner(System.in);
         System.out.print("Enter the width and height of the image, separated by spaces: ");
         imageWidth = keyboardScanner.nextInt();
@@ -28,7 +29,15 @@ public class NID
 
             while(lineReader.hasNextInt())
             {
-                System.out.println(lineReader.nextInt());
+                n = lineReader.nextInt();
+
+                System.out.println(n); // temporary line so you can see that n is being read. Please delete when you start writing!
+
+                //--------------------------------
+                // TODO: You write this!
+
+                //--------------------------------
+
             }
 
 
