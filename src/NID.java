@@ -7,10 +7,10 @@ public class NID
     {
         int imageWidth, imageHeight;
         int n;
-        int currentRow = 0;
 
         // ++++++
         // Suggested variables....
+        int currentRow = 0;
         int currentCol = 0;
         // "final" keyword means "this 'variable' is a constant."
         final String DARK_CHARACTER  = "M";
@@ -27,7 +27,7 @@ public class NID
 
         System.out.print("Enter the numbers you wish to interpret. ");
 
-        while (currentRow<imageHeight)
+        while (true) // loop forever. You'll want to "break" out of this loop at some point.
         {
             n = keyboardScanner.nextInt();
             System.out.println(n); // temporary line so you can see that n is being read. Please delete or comment out when you start writing!
