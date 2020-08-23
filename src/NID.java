@@ -41,7 +41,8 @@ public class NID
 
             //--------------------------------
         }
-
+        // reinstate this line when you have an exit condition from the while loop:
+        //System.out.println("Done.");
     }
 
 }
