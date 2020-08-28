@@ -154,8 +154,8 @@ In addition to what we have seen, let us make our program a bit more forgiving:
 
 
 1. If a user types in a number that would cause us to go past the end of a row, we'll just draw however many characters as are left in the row and ignore the rest. For example, if we have an image width of 6 and type 2 3 12 for that row, we'll get: \
-    `..MMM. \
-`and the remaining 11 dots of the "12" will be discarded.
+    `..MMM. `\
+    and the remaining 11 dots of the "12" will be discarded.
 2. If the user types in a negative number, that will fill in the rest of the row - think of "-1" as equivalent to "imageWidth."
 3. If the user types in more numbers that would create extra lines on the image, they are ignored. Only the correct number of rows will be drawn.
 
@@ -172,19 +172,7 @@ A few things to check for yourself, in addition to (a - c), above:
 
 We will discuss in class what you need to do to turn this in via Github Classroom, but I also am asking you to add something to this document In the table below, share a picture with me: give me width and height on one line, and on the next, the numbers that make the picture.
 
-
-<table>
-  <tr>
-   <td>Width & Height:
-   </td>
-  </tr>
-  <tr>
-   <td>Numbers
-   </td>
-  </tr>
-</table>
-
-
+*(Make these changes in the Google Document.)*
 
 <!-- Footnotes themselves at the bottom. -->
 ## Notes
