@@ -1,16 +1,7 @@
 
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 2.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
 APCS	August 27, 2020
 
-Numerical Image Decompression
+## Numerical Image Decompression ##
 
 In this project we're looking at a way that a black-and-white pixelated image can be represented as a sequence of numbers. For instance, consider the following 8 x 8 image:
 
@@ -19,10 +10,10 @@ In this project we're looking at a way that a black-and-white pixelated image ca
   <tr>
    <td rowspan="8" >
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline drawings not supported directly from Docs. You may want to copy the inline drawing to a standalone drawing and export by reference. See <a href="https://github.com/evbacher/gd2md-html/wiki/Google-Drawings-by-reference">Google Drawings by reference</a> for details. The img URL below is a placeholder. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-<img src="https://docs.google.com/drawings/d/12345/export/png" width="80%" alt="drawing">
+
+<img src="images/image1.png" width="80%" alt="drawing">
 
    </td>
    <td>3 light, 1 dark, 4 light
@@ -61,29 +52,16 @@ In this project we're looking at a way that a black-and-white pixelated image ca
 
 Since we keep alternating the light and dark values, we might even choose just use the numbers, assuming we always start with light:
 
-
+```
     3 1 4
-
-
     3 1 4
-
-
     2 1 1 1 3
-
-
     2 1 1 1 3
-
-
     1 1 3 1 2
-
-
     1 5 2
-
-
     0 1 5 1 1
-
-
     0 1 5 1 1
+```
 
 (Note the zeroes on the last two lines… and consider why they are there. Would it make sense to have zeros in the middle of a line?)
 
@@ -161,14 +139,7 @@ This is how you get out of a <code>while(true) </code>loop, which would otherwis
 
 
 *   After a brief pause, you'll get a message saying you're ready to go, with a url on it. Go ahead and click on this URL.
-*   You should see something similar to this. (This is for a different assignment for a different class for a different student, but the overall appearance should be similar.) \
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
-
+*   You should see something similar to this. (This is for a different assignment for a different class for a different student, but the overall appearance should be similar.) <br /><img src="images/image2.png" width = 750>
 *   Click on the green "Code" button. You'll see the start of a (mighty similar) URL here, too. Click on the clipboard icon next to it to copy this URL into your clipboard.
 *   Launch IntelliJ IDEA on your computer, and then…
     *   If you are seeing the IntelliJ greeting screen, click "Get From Version Control."
@@ -218,6 +189,4 @@ We will discuss in class what you need to do to turn this in via Github Classroo
 <!-- Footnotes themselves at the bottom. -->
 ## Notes
 
-[^1]:
-
-     Sounds like something out of _Mission Impossible,_ doesn't it?
+[^1]: Sounds like something out of _Mission Impossible,_ doesn't it?
